@@ -15,9 +15,9 @@ body {
 
 
 .page-header{
-    background-color: #146eb8;
-    background-image: url(/assets/images/bigpicture-banner.jpg);
-    color: #1C007B;
+    background-color: #e8eaeb;
+    /*background-image: url(/assets/images/bigpicture-banner.jpg);*/
+    color: hsl(0, 0%, 98%);
     background-size: 50%;
      background-position-y: center;
   }
@@ -217,9 +217,9 @@ padding-top: 2rem; margin-top: 2rem; border-top: solid 1px #eff0f1; }
   cursor: zoom-in;
 }
 .viewer-title {
-  padding-bottom: 5px; // FIXME: This is a workaround for viewerjs cropping the bottoms of letters sticking down.
-  color: white; // Readability
-  text-shadow: 0px 0px 3px black; // Readability
+  padding-bottom: 5px; /* FIXME: This is a workaround for viewerjs cropping the bottoms of letters sticking down.*/
+  color: white; /* Readability*/
+  text-shadow: 0px 0px 3px black; /* Readability*/
   font-size: 15px;
   opacity: 1;
   font-weight: bold;
