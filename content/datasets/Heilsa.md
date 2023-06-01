@@ -41,8 +41,6 @@ other:
 {{< param datacite.name >}}
 Different types of formats including foward read - fastq.gz, reverse read - fastq.gz, Ref.mapped sorted.bam, Ref.mapped .cram, Genomic VCF (g.vcf), Variant calls (.vcf).
 
-{{ end }}
-
 ## License
 Copyright
 Apply for acces at https://rems.gdi.nbis.se.
