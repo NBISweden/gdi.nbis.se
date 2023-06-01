@@ -20,21 +20,18 @@
             <td>{{ .Params.other.shortName }}</td>
           </tr>
         <tr>
-          <th>Age at extraction</th>
+          <th>Number of samples</th>
           <td>
-            {{range .Params.other.age_at_extraction}}
-            <p>{{.}}</p>
-            {{end}}
+            {{ .Params.other.samples_number }}
           </td>
         </tr>
         <tr>
-            <th>Anatomical site</th>
-            <td>
-              {{range .Params.other.anatomical_site }}
-            <p>{{.}}</p>
-              {{ end }}
-            </td>
+          <th>Rems URL</th>
+          <td>
+            {{ .Params.other.rems_url }}
+          </td>
         </tr>
+        
           <tr>
           <tr>
             <th>Cite as</th>
@@ -49,6 +46,9 @@
           </tr>
           <tr>
             <th>DOI</th>
+            <td>
+            
+            </td>
           </tr>          
           <tr>
             <th>Copyright</th>
