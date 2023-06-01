@@ -15,10 +15,10 @@ body {
 
 
 .page-header{
-    background-color: #e8eaeb;
+    background-color: #ffffff;
     background-repeat: no-repeat;
     /*background-image: url(/assets/images/bigpicture-banner.jpg);*/
-    color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 100%);
     background-size: 50%;
      background-position-y: center;
   }
@@ -27,7 +27,7 @@ body {
     font-weight: bold;
   }
 
-  .page-header { color: #030303; text-align: right; background-color: #f6faf8; background-image: linear-gradient(120deg, #155799, #e22323); }
+  .page-header { color: #030303; text-align: right; background-color: #ffffff; background-image: linear-gradient(120deg, #155799, #e22323); }
   @media screen and (min-width: 64em) { .page-header { padding: 5rem 6rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 3rem 4rem; } }
   @media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } }
