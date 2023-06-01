@@ -35,6 +35,7 @@ other:
   age_at_extraction:
   - '45'
   - '90'
+  image: "/img/heilsa.png"
   
 ---
 ## File formats
